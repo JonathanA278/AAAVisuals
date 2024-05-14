@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photographer Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <img src="img/Jon_Ayala__2_-removebg-preview.png" alt="">
+        <a class="navbar-brand" href="index.html">AAA.Visuals</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Previous Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section text-center">
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p class="lead">Explore my work and feel free to contact me for inquiries.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>What's up my name is Jon. I am releativly new to photography but I have recieved lots of good reviews as I have gotten better. I take all suggestions into acount and I believe I am currently at a great place in this career. I am still a student in highschool and I am enrolled in the web design program at Freehold, Highschool. Throughout this program I have realized I have a great eye for this and can do some great things with this. Right now I only do images but I plan to start working on video and mixtapes soon.</p>
+    </div>
+  </section>
+
+  <section id="works" class="works-section">
+    <div class="container">
+      <h2>Some Previous Works</h2>
+      <h3 class="h3 mt-3">Normal Edits</h3>
+      <div class="row mt-3">
+        <div class="col"><img src="img/normal/cam.JPG" alt="" height="300px">
+        </div>
+        <div class="col"><img src="img/normal/noah2.jpg" alt="" height="300px">
+        </div>
+      </div>
+        <div class="row mt-3">
+          <div class="col"><img src="img/normal/normalriv.jpg" alt="" height="300px"> </div>
+          <div class="col">  <img src="img/normal/noah4.jpg" alt="" height="300px"> </div>
+        </div>
+
+        <h3 class="h3 mt-3">Color Graded</h3>
+        <div class="row mt-3">
+          <div class="col"><img src="img/color graded/IMG_8688.jpg" alt="" height="300px"></div>
+          <div class="col"><img src="img/color graded/xander.JPG" alt="" height="300px"></div>
+        </div>
+        <div class="row mt-3">
+          <div class="col"><img src="img/color graded/img_1950.jpg" alt="" height="300px"></div>
+          <div class="col"><img src="img/color graded/IMG_9870.jpg" alt="" height="300px"></div>
+        </div>
+
+        <h3 class="h3 mt-3">Black+White</h3>
+        <div class="row mt-3">
+          <div class="col"><img src="img/black+white/IMG_0201.jpg" alt="" height="300px"></div>
+          <div class="col"><img src="img/black+white/damier B+W.JPG" alt="" height="300px"></div>
+        </div>
+        <div class="row mt-3">
+          <div class="col"><img src="img/black+white/josh B+W.JPG" alt="" height="300px"></div>
+          <div class="col"><img src="img/black+white/IMG_9863.jpg" alt="" height="300px"></div>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section bg-light mt-3">
+    <div class="container">
+      <h2 class="text-center">Contact Me</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger btn-block">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4 mt-3">
+
+
+    <div class="container">
+      <p>&copy; AAA.Visuals Portfolio</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

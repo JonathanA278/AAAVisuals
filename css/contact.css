@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+.container {
+    padding: 50px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn {
+    background: #ff3131;
+    outline: #ff3131;
+  }
